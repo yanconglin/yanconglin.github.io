@@ -68,24 +68,63 @@
             <td style="padding:20px;width:25%;vertical-align:middle">
               <heading>Publications</heading>
 
-          <tr onmouseout="ht_stop()" onmouseover="ht_start()">
+          <tr onmouseout="lane_stop()" onmouseover="lane_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='flare_image'>
+                <div class="two" id='ht_image'>
                   <img src='images/ht_gt.png' width="160"></div>
                 <img src='images/ht_gt.png' width="160">
               </div>
               <script type="text/javascript">
                 function flare_start() {
-                  document.getElementById('flare_image').style.opacity = "1";
+                  document.getElementById('ht_image').style.opacity = "1";
                 }
 
                 function flare_stop() {
-                  document.getElementById('flare_image').style.opacity = "0";
+                  document.getElementById('ht_image').style.opacity = "0";
                 }
                 flare_stop()
               </script>
             </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2007.09493">
+                <papertitle>Deep Hough Transform Line Priors</papertitle>
+              </a>
+              <br>
+	      <strong>Yancong Lin</strong>
+              <a href="https://silvialaurapintea.github.io/">Silvia-Laura Pintea</a>,
+              <a href="http://jvgemert.github.io/">Jan van Gemert</a>,
+              <br>
+              <em>ECCV, 2020  
+              <br>
+              <a href="https://github.com/yanconglin/Deep-Hough-Transform-Line-Priors/">Code</a>  / 
+              <a href="https://arxiv.org/abs/2007.09493">arXiv</a> 
+              <p></p>
+              <p>
+                Reduce data  dependency by adding line priors through a trainable Hough transform block into a deep network.
+              </p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="ht_stop()" onmouseover="ht_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
+            <!-- <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ht_image'>
+                  <img src='images/ht_gt.png' width="160"></div>
+                <img src='images/ht_gt.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function flare_start() {
+                  document.getElementById('ht_image').style.opacity = "1";
+                }
+
+                function flare_stop() {
+                  document.getElementById('ht_image').style.opacity = "0";
+                }
+                flare_stop()
+              </script>
+	    </td> -->
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2007.09493">
                 <papertitle>Deep Hough Transform Line Priors</papertitle>
@@ -119,11 +158,10 @@
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
             <td width="75%" valign="center">
-              <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair, CVPR 2021</a>
+              Student reviewer, ICCV 2021
               <br><br>
-              <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
+              Reviewer, IEEE Transactions on Image Processing
               <br><br>
-              <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
             </td>
           </tr>
           <tr>
